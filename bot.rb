@@ -18,3 +18,11 @@ post "/cat" do
   content_type "image/jpg"
   send_file files.sample, disposition: "inline"
 end
+
+not_found do
+  'This is nowhere to be found.'
+end
+
+error do
+  'Something went wrong.'
+end
