@@ -137,6 +137,11 @@ section of the Campfire UI you can give your bot a name, and set its webhook URL
 to be an endpoint of your bot (like `http://mybot.example.com/cats`). Then try
 sending a message to your bot to see it respond.
 
+## Exploring other examples
+
+Check the [examples](./examples) directory for some more examples that use
+different language, libraries or frameworks.
+
 ## Share your bots!
 
 If you create a bot that you think others might find useful, we'd love to see
