@@ -3,7 +3,7 @@
 Creating a Campfire bot is as simple as replying to a request with either text
 or an image. This reply will be posted directly into the room from which the bot
 was either mentioned or pinged. Alternatively, you can have your bot post to a
-room on it's own accord by using the bot-specific URLs that are listed in
+room on its own accord by using the bot-specific URLs that are listed in
 Campfire in the bot section.
 
 This repository contains a simple Ruby bot that can be used as a starting point
@@ -11,7 +11,7 @@ for your own bot.
 
 ## Developing with Ruby
 
-You'll need a working Ruby environment to build the example bot. We recomend
+You'll need a working Ruby environment to build the example bot. We recommend
 using [rbenv](https://github.com/rbenv/rbenv) to install and manage your Ruby
 versions.
 
@@ -51,7 +51,7 @@ can also post messages to rooms on their own accord.
 
 When a user mentions or pings a bot, Campfire sends a POST request to the bot's
 webhook URL. That request includes a JSON payload with the details of the
-message content, the room is was sent from, and the user who sent it.
+message content, the room it was sent from, and the user who sent it.
 
 Here's an example of a valid message payload:
 
@@ -109,7 +109,7 @@ can use an existing server to deploy to, or you can create one with a cloud
 provider like Digital Ocean or Hetzner.
 
 Most of the deployment details will go into the `config/deploy.yml` file. The
-regsitry credentials should be kept separate though, to make sure they don't end
+registry credentials should be kept separate though, to make sure they don't end
 up in the repository; those can be added to a `.env` file instead.
 
 For a typical setup, the steps you'll need to do are:
@@ -134,13 +134,13 @@ You can find all the available options in the
 
 Once your bot has been deployed, add it to your Campfire instance. In the bot
 section of the Campfire UI you can give your bot a name, and set its webhook URL
-to be an endpoint of your bot (like `http://mybot.example.com/cats`). Then try
+to be an endpoint of your bot (like `https://mybot.example.com/cats`). Then try
 sending a message to your bot to see it respond.
 
 ## Exploring other examples
 
 Check the [examples](./examples) directory for some more examples that use
-different language, libraries or frameworks.
+different languages, libraries or frameworks.
 
 ## Share your bots!
 
