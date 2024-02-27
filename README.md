@@ -134,7 +134,7 @@ You can find all the available options in the
 
 Once your bot has been deployed, add it to your Campfire instance. In the bot
 section of the Campfire UI you can give your bot a name, and set its webhook URL
-to be an endpoint of your bot (like `https://mybot.example.com/cats`). Then try
+to be an endpoint of your bot (like `http://mybot.example.com/cats`). Then try
 sending a message to your bot to see it respond.
 
 ## Exploring other examples
